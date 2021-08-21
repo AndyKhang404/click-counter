@@ -1,0 +1,46 @@
+:root{
+	font-size: 20px;
+}
+
+#root{
+	font-size: 1rem;
+	font-family: monospace;
+	background-color: #ddd;
+	/* Disable selecting text by double/triple click */
+	-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+html,body,#root{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.app{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.app-text{
+	margin: 1rem;
+}
+
+.app-reset{
+	border: none;
+	cursor: pointer;
+	background-color: #ddd;
+	text-decoration: underline;
+	font-family: monospace;
+	font-size: 1rem;
+}
